@@ -10,11 +10,7 @@ module.exports = model('Student', new Schema({
         required: true,
         unique: true
     },
-    picture: {
-        type: String,
-        required: false
-    },
-    form: {
+    graduation: {
         type: Number,
         required: true
     }
